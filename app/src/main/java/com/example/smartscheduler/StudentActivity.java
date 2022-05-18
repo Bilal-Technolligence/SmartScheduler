@@ -30,7 +30,7 @@ public class StudentActivity extends AppCompatActivity {
     DatabaseReference myRef;
     ProgressBar loadingBar;
     ValueEventListener allValueListener=null;
-
+    ValueEventListener allValueListener2=null;
     ArrayList<String> SemesterList = new ArrayList<>();
     ArrayList<String> DepartmentList = new ArrayList<>();
 
