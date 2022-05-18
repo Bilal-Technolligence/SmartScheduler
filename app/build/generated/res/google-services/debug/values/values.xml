@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">321248863822-2vv7j1q7sgsc3m6lj1j6abkld17uukka.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">321248863822</string>
+    <string name="google_api_key" translatable="false">AIzaSyBos2o-BxG-D5OPgcxo-fe4DyAGxrGpjn8</string>
+    <string name="google_app_id" translatable="false">1:321248863822:android:11e65720ad0b17789dc51f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBos2o-BxG-D5OPgcxo-fe4DyAGxrGpjn8</string>
+    <string name="google_storage_bucket" translatable="false">smarts-bffa6.appspot.com</string>
+    <string name="project_id" translatable="false">smarts-bffa6</string>
+</resources>
