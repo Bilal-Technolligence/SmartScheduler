@@ -102,6 +102,7 @@ public class StudentActivity extends AppCompatActivity {
     public void onStop() {
         if (allValueListener != null) {
             myRef.removeEventListener(allValueListener);
+
         }
         super.onStop();
     }
