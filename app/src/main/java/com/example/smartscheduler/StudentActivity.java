@@ -30,7 +30,6 @@ public class StudentActivity extends AppCompatActivity {
     DatabaseReference myRef;
     ProgressBar loadingBar;
     ValueEventListener allValueListener=null;
-    ValueEventListener allValueListener2=null;
     ArrayList<String> SemesterList = new ArrayList<>();
     ArrayList<String> DepartmentList = new ArrayList<>();
 
@@ -159,6 +158,8 @@ public class StudentActivity extends AppCompatActivity {
                         recyclerView.setVisibility(View.GONE);
                         NoRecordFoundView.setVisibility(View.VISIBLE);
                     } else {
+                        NoRecordFoundView.setVisibility(View.GONE);
+                        recyclerView.setVisibility(View.VISIBLE);
                         Collections.reverse(list);
                         loadingBar.setVisibility(View.GONE);
                         recyclerView.setAdapter(adapter);
