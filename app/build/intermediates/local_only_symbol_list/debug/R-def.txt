@@ -22,6 +22,7 @@ id dataLayout
 id day
 id department
 id faculty
+id facultyName
 id linearLayout
 id linearLayout2
 id loadingBar

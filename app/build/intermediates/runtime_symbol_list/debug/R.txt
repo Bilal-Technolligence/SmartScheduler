@@ -2764,6 +2764,7 @@ int id exitUntilCollapsed 0x7f0800c8
 int id expand_activities_button 0x7f0800c9
 int id expanded_menu 0x7f0800ca
 int id faculty 0x7f0800cb
+int id facultyName 0x7f080207
 int id fade 0x7f0800cc
 int id fill 0x7f0800cd
 int id fill_horizontal 0x7f0800ce

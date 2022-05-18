@@ -2765,6 +2765,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id faculty
+id facultyName
 id fade
 id fill
 id fill_horizontal
