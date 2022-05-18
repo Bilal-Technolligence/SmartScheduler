@@ -1,33 +1,63 @@
 {
   "project_info": {
-    "project_number": "321248863822",
-    "project_id": "smarts-bffa6",
-    "storage_bucket": "smarts-bffa6.appspot.com"
+    "project_number": "398927261621",
+    "firebase_url": "https://smartscheduler-admin-default-rtdb.firebaseio.com",
+    "project_id": "smartscheduler-admin",
+    "storage_bucket": "smartscheduler-admin.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:321248863822:android:11e65720ad0b17789dc51f",
+        "mobilesdk_app_id": "1:398927261621:android:8816726b206a8f2c55b3fc",
         "android_client_info": {
           "package_name": "com.example.smartscheduler"
         }
       },
       "oauth_client": [
         {
-          "client_id": "321248863822-2vv7j1q7sgsc3m6lj1j6abkld17uukka.apps.googleusercontent.com",
+          "client_id": "398927261621-8i11g1ggsmhp1hjbqa53e6i2ak55dkp9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBos2o-BxG-D5OPgcxo-fe4DyAGxrGpjn8"
+          "current_key": "AIzaSyAcpq9Jj8WbbCGVK3v9rX8r5qY3jbehwQk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "321248863822-2vv7j1q7sgsc3m6lj1j6abkld17uukka.apps.googleusercontent.com",
+              "client_id": "398927261621-8i11g1ggsmhp1hjbqa53e6i2ak55dkp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398927261621:android:db3e8b6a7d631cbc55b3fc",
+        "android_client_info": {
+          "package_name": "com.smartscheduler_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398927261621-8i11g1ggsmhp1hjbqa53e6i2ak55dkp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcpq9Jj8WbbCGVK3v9rX8r5qY3jbehwQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398927261621-8i11g1ggsmhp1hjbqa53e6i2ak55dkp9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
