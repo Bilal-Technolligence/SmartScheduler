@@ -1,6 +1,7 @@
 package com.example.smartscheduler;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -56,10 +57,8 @@ public class AdapterAllSchedules extends RecyclerView.Adapter<AdapterAllSchedule
         if (model.getDEPARTMENT()!=null && !model.getDEPARTMENT().equals(""))
             holder.department.setText(model.getDEPARTMENT().concat(" Department"));
 
-        holder.view.setOnClickListener(v -> {
-            //OrderViewDialogFragment dialogFragment = new OrderViewDialogFragment(model_recruiterSide);
-            //dialogFragment.show(fragment.getChildFragmentManager(), "Show");
-        });
+        holder.view.setOnClickListener(v -> context.startActivity(new Intent(context,OwnScheduleDetailActivity.class)
+                .putExtra("ScheduleModel",model)));
     }
 
     @Override

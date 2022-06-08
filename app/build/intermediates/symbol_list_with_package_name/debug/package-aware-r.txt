@@ -2637,7 +2637,9 @@ id adjust_width
 id alertTitle
 id aligned
 id all
+id allCoursesSpinner
 id allDepartmentSpinner
+id allRoomSpinner
 id allSemesterSpinner
 id allStates
 id always
@@ -2753,6 +2755,10 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editText_CreditHour
+id editText_Day
+id editText_EndingTime
+id editText_StartingTime
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
@@ -3062,6 +3068,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id update_Schedule_Button
 id useLogo
 id vertical_only
 id view_offset_helper
@@ -3175,6 +3182,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_own_schedule_detail
 layout activity_student
 layout activity_teacher
 layout browser_actions_context_menu_page
@@ -3343,6 +3351,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string image

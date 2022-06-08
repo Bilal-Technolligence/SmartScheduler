@@ -1,6 +1,8 @@
 package com.example.smartscheduler;
 
-public class ScheduleModel {
+import java.io.Serializable;
+
+public class ScheduleModel implements Serializable {
     String ID;
     String DAY;
     String S_TIME;

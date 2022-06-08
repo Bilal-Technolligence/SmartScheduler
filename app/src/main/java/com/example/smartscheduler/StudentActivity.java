@@ -90,12 +90,7 @@ public class StudentActivity extends AppCompatActivity {
         adapterDepartment.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         DepartmentSpinner.setAdapter(adapterDepartment);
 
-        SearchButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                getData();
-            }
-        });
+        SearchButton.setOnClickListener(view -> getData());
     }
 
     @Override
