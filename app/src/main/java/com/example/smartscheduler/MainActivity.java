@@ -23,6 +23,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.smartscheduler.util.BaseUtil;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -40,6 +42,17 @@ public class MainActivity extends AppCompatActivity implements PDFUtility.OnDocu
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+        if (FirebaseAuth.getInstance().getCurrentUser() != null) {
+            String token = new BaseUtil(this).getDeviceToken();
+            if (token != null && !token.equals(""))
+                mDatabase.child("DeviceTokens").child("Teachers").
+                        child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("token")
+                        .setValue(token);
+        } else {
+            startActivity(new Intent(this, Login.class));
+        }
 
         verifystoragepermissions(this);
 
